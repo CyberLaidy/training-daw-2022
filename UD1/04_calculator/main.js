@@ -6,8 +6,26 @@
 
 
 // define variables
-let x, y;
+let x = 15
+let y = 5
 
+function suma() {
+    console.log('La suma es: '+x+y)
+}
 
-// print sum, substract, multiply and divide
-console.log('something')
+function resta(){
+    console.log('La resta es: '+(x-y))
+}
+
+function multi(){
+    console.log('La Multipliocacion es: '+x*y)
+}
+
+function division (){
+    console.log('La division es: '+x/y)
+}
+
+suma()
+resta()
+multi()
+division()

@@ -2,7 +2,7 @@
 
 var x = 10
 var test = 5
-
+console.log();
 console.log('valor de x ' + x)
 
 function shadow() {
